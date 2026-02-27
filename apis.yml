@@ -1,0 +1,72 @@
+name: Neolink
+description: APIs for Neolink smart home camera systems and IoT devices
+image: https://example.com/neolink-logo.png
+url: https://neolink.example.com
+created: '2024-01-15'
+modified: '2024-01-15'
+apis:
+- name: Neolink Camera API
+  description: RESTful API for managing Neolink smart cameras, streaming, and recordings
+  image: https://example.com/neolink-camera-api.png
+  humanURL: https://neolink.example.com/camera-api
+  baseURL: https://api.neolink.example.com/v1
+  tags:
+  - cameras
+  - video
+  - streaming
+  - IoT
+  - smart home
+  properties:
+  - type: Documentation
+    url: https://docs.neolink.example.com/camera-api
+  - type: OpenAPI
+    url: https://api.neolink.example.com/v1/openapi.json
+  - type: Authentication
+    url: https://docs.neolink.example.com/authentication
+  contact:
+  - FN: Neolink API Support
+    email: api-support@neolink.example.com
+    url: https://support.neolink.example.com
+- name: Neolink Device Management API
+  description: API for device provisioning, configuration, and management
+  humanURL: https://neolink.example.com/device-api
+  baseURL: https://api.neolink.example.com/v1/devices
+  tags:
+  - devices
+  - management
+  - configuration
+  - IoT
+  properties:
+  - type: Documentation
+    url: https://docs.neolink.example.com/device-api
+  - type: OpenAPI
+    url: https://api.neolink.example.com/v1/devices/openapi.json
+  - type: Swagger
+    url: https://api.neolink.example.com/v1/devices/swagger
+- name: Neolink Events API
+  description: Webhook and event notification API for motion detection and alerts
+  humanURL: https://neolink.example.com/events-api
+  baseURL: https://api.neolink.example.com/v1/events
+  tags:
+  - events
+  - webhooks
+  - notifications
+  - alerts
+  properties:
+  - type: Documentation
+    url: https://docs.neolink.example.com/events-api
+  - type: Webhooks
+    url: https://docs.neolink.example.com/webhooks
+include:
+- name: Neolink Status Page
+  url: https://status.neolink.example.com/apis.json
+maintainers:
+- FN: Neolink API Team
+  email: api-team@neolink.example.com
+  url: https://neolink.example.com/about
+tags:
+- cameras
+- IoT
+- smart home
+- video streaming
+- security
