@@ -1,72 +1,38 @@
+aid: neolink
 name: Neolink
-description: APIs for Neolink smart home camera systems and IoT devices
-image: https://example.com/neolink-logo.png
-url: https://neolink.example.com
-created: '2024-01-15'
-modified: '2024-01-15'
-apis:
-- name: Neolink Camera API
-  description: RESTful API for managing Neolink smart cameras, streaming, and recordings
-  image: https://example.com/neolink-camera-api.png
-  humanURL: https://neolink.example.com/camera-api
-  baseURL: https://api.neolink.example.com/v1
-  tags:
-  - cameras
-  - video
-  - streaming
-  - IoT
-  - smart home
-  properties:
-  - type: Documentation
-    url: https://docs.neolink.example.com/camera-api
-  - type: OpenAPI
-    url: https://api.neolink.example.com/v1/openapi.json
-  - type: Authentication
-    url: https://docs.neolink.example.com/authentication
-  contact:
-  - FN: Neolink API Support
-    email: api-support@neolink.example.com
-    url: https://support.neolink.example.com
-- name: Neolink Device Management API
-  description: API for device provisioning, configuration, and management
-  humanURL: https://neolink.example.com/device-api
-  baseURL: https://api.neolink.example.com/v1/devices
-  tags:
-  - devices
-  - management
-  - configuration
-  - IoT
-  properties:
-  - type: Documentation
-    url: https://docs.neolink.example.com/device-api
-  - type: OpenAPI
-    url: https://api.neolink.example.com/v1/devices/openapi.json
-  - type: Swagger
-    url: https://api.neolink.example.com/v1/devices/swagger
-- name: Neolink Events API
-  description: Webhook and event notification API for motion detection and alerts
-  humanURL: https://neolink.example.com/events-api
-  baseURL: https://api.neolink.example.com/v1/events
-  tags:
-  - events
-  - webhooks
-  - notifications
-  - alerts
-  properties:
-  - type: Documentation
-    url: https://docs.neolink.example.com/events-api
-  - type: Webhooks
-    url: https://docs.neolink.example.com/webhooks
-include:
-- name: Neolink Status Page
-  url: https://status.neolink.example.com/apis.json
-maintainers:
-- FN: Neolink API Team
-  email: api-team@neolink.example.com
-  url: https://neolink.example.com/about
+description: >-
+  Neolink is an open-source bridge for Reolink cameras that provides an RTSP
+  stream gateway and REST API for managing Reolink IP cameras, enabling
+  integration with NVR software, home automation, and other camera management
+  tools.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- cameras
-- IoT
-- smart home
-- video streaming
-- security
+  - Cameras
+  - IoT
+  - RTSP
+  - Smart Home
+  - Open Source
+url: https://raw.githubusercontent.com/api-evangelist/neolink/refs/heads/main/apis.yml
+created: '2024-01-15'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis:
+  - aid: neolink:neolink-api
+    name: Neolink Camera API
+    description: REST API for managing Reolink cameras through the Neolink bridge,
+      providing RTSP streaming, camera control, and motion detection integration.
+    humanURL: https://github.com/QuantumEntangledAndy/neolink
+    tags:
+      - Cameras
+      - RTSP
+      - IoT
+    properties:
+      - type: Documentation
+        url: https://github.com/QuantumEntangledAndy/neolink
+common:
+  - type: GitHub Organization
+    url: https://github.com/QuantumEntangledAndy/neolink
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
