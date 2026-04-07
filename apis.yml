@@ -10,9 +10,9 @@ image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Cameras
   - IoT
+  - Open Source
   - RTSP
   - Smart Home
-  - Open Source
 url: https://raw.githubusercontent.com/api-evangelist/neolink/refs/heads/main/apis.yml
 created: '2024-01-15'
 modified: '2026-03-16'
@@ -20,13 +20,12 @@ specificationVersion: '0.19'
 apis:
   - aid: neolink:neolink-api
     name: Neolink Camera API
-    description: REST API for managing Reolink cameras through the Neolink bridge,
-      providing RTSP streaming, camera control, and motion detection integration.
+    description: REST API for managing Reolink cameras through the Neolink bridge, providing RTSP streaming, camera control, and motion detection integration.
     humanURL: https://github.com/QuantumEntangledAndy/neolink
     tags:
       - Cameras
-      - RTSP
       - IoT
+      - RTSP
     properties:
       - type: Documentation
         url: https://github.com/QuantumEntangledAndy/neolink
