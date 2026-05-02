@@ -1,68 +1,45 @@
 # Neolink (neolink)
-APIs for Neolink smart home camera systems and IoT devices
+Neolink is an open-source bridge for Reolink cameras that provides an RTSP stream gateway and REST API for managing Reolink IP cameras, enabling integration with NVR software, home automation, and other camera management tools.
 
-**URL:** [Visit APIs.json URL](https://neolink.example.com)
+**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/neolink/refs/heads/main/apis.yml)
+
+## Scope
+
+- **Type:** Index
+- **Position:** Consuming
+- **Access:** 3rd-Party
 
 ## Tags:
 
- - cameras, IoT, smart home, video streaming, security
+ - Cameras, IoT, Open Source, RTSP, Smart Home
 
 ## Timestamps
 
-- **Created:** 2024-01-15 
-- **Modified:** 2024-01-15 
+- **Created:** 2024-01-15
+- **Modified:** 2026-04-28
 
 ## APIs
 
 ### Neolink Camera API
-RESTful API for managing Neolink smart cameras, streaming, and recordings
+REST API for managing Reolink cameras through the Neolink bridge, providing RTSP streaming, camera control, and motion detection integration.
 
-**Human URL:** [https://neolink.example.com/camera-api](https://neolink.example.com/camera-api)
-
-
-#### Tags:
-
- - cameras, video, streaming, IoT, smart home
-
-#### Properties
-
-- [Documentation](https://docs.neolink.example.com/camera-api)
-- [OpenAPI](https://api.neolink.example.com/v1/openapi.json)
-- [Authentication](https://docs.neolink.example.com/authentication)
-
-### Neolink Device Management API
-API for device provisioning, configuration, and management
-
-**Human URL:** [https://neolink.example.com/device-api](https://neolink.example.com/device-api)
+**Human URL:** [https://github.com/QuantumEntangledAndy/neolink](https://github.com/QuantumEntangledAndy/neolink)
 
 
 #### Tags:
 
- - devices, management, configuration, IoT
+ - Cameras, IoT, RTSP
 
 #### Properties
 
-- [Documentation](https://docs.neolink.example.com/device-api)
-- [OpenAPI](https://api.neolink.example.com/v1/devices/openapi.json)
-- [Swagger](https://api.neolink.example.com/v1/devices/swagger)
+- [Documentation](https://github.com/QuantumEntangledAndy/neolink)
 
-### Neolink Events API
-Webhook and event notification API for motion detection and alerts
+## Common Properties
 
-**Human URL:** [https://neolink.example.com/events-api](https://neolink.example.com/events-api)
-
-
-#### Tags:
-
- - events, webhooks, notifications, alerts
-
-#### Properties
-
-- [Documentation](https://docs.neolink.example.com/events-api)
-- [Webhooks](https://docs.neolink.example.com/webhooks)
+- [GitHub Organization](https://github.com/QuantumEntangledAndy/neolink)
 
 ## Maintainers
 
-**FN:** Neolink API Team
+**FN:** Kin Lane
 
-**Email:** api-team@neolink.example.com
+**Email:** kin@apievangelist.com
