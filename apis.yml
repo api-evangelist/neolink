@@ -30,7 +30,7 @@ apis:
       - type: Documentation
         url: https://github.com/QuantumEntangledAndy/neolink
 common:
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/QuantumEntangledAndy/neolink
 maintainers:
   - FN: Kin Lane
