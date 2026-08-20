@@ -20,6 +20,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neolink.png
 tags:
+  - Camera
+  - IoT
+  - Open-Source
+  - RTSP
+  - Smart Home
+tags_raw:
   - Cameras
   - IoT
   - Open Source
@@ -35,6 +41,10 @@ apis:
     description: REST API for managing Reolink cameras through the Neolink bridge, providing RTSP streaming, camera control, and motion detection integration.
     humanURL: https://github.com/QuantumEntangledAndy/neolink
     tags:
+      - Camera
+      - IoT
+      - RTSP
+    tags_raw:
       - Cameras
       - IoT
       - RTSP
